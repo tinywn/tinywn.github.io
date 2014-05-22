@@ -1,4 +1,4 @@
-我的域名是：http://tinywn.github.com   欢迎过来与我交流。
+我的域名是：http://tinywn.github.io   欢迎过来与我交流。
 
 
 Markdown 语法说明 (简体中文版)
