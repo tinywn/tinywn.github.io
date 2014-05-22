@@ -1,7 +1,6 @@
 ---
-title: 关于
+title: About
 layout: page
-comments: no
 
 ---
 
@@ -26,5 +25,3 @@ GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github 
 ----
 
 本博客clone自[89ao](https://github.com/89ao/89ao.github.io)
-
-----
