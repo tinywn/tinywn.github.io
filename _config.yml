@@ -2,15 +2,12 @@ markdown: rdiscount
 permalink: /:title/
 url: http://tinywn.github.io
 name: tinywn
-author: wn
-qq: 
-email: 
-duoshuo: 
-#beian: 浙ICP备12026616号
-#cnzz: 119959
-weibo:
-github: 
+author: tinywn
+qq: 773963322
+email: codecup@163.com
+duoshuo: tinywn
+weibo: 3842200194
+github: tinywn
 pygments: true
 safe: true
 paginate: 20
-about: "小菜"
