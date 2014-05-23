@@ -16,23 +16,13 @@ layout: page
      <p></p>
     </ul>
 	<h2>Contact Me</h2>
-	<p>
 	{% if site.qq %}
 	ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
 	{% endif %}
-	</P>
-	<p>
 	微博：[hitcode](http://weibo.com/u/{{ site.weibo }})
-	</p>
-	<p>
 	网站：[{{ site.name }}]({{ site.url }})
-	</p>
-	<p>
 	邮箱：[{{ site.email }}](mailto:{{ site.email }})
-	</p>
-	<p>
 	GitHub : [github.com/{{ site.github }}](http://github.com/{{ site.github }})
-	</p>
     <h2>About my blog</h2>
     <p>域  名：www.yangqq.com 创建于2011年01月12日 <a href="/" class="blog_link" target="_blank">注册域名</a></p>
     <p>服务器：阿里云服务器<a href="/" class="blog_link" target="_blank">购买空间</a></p>
