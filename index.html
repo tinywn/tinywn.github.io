@@ -12,6 +12,7 @@ layout: page
   <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
   <a title="{{ post.title }}" href="{{ post.url }}" target="_blank" class="readmore">阅读全文>></a>
 </ul>
+<p class="dateview"></p>
 {% endfor %}
 
 
