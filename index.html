@@ -1,12 +1,21 @@
 ---
-css: 
-	- href: /css/base.css
-	- href: /css/index.css
 title: Tinywn's Homepage
 layout: page
 ---
 
-<div class="banner">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="/css/base.css">
+<link type="text/css" rel="stylesheet" href="/css/index.css">
+<script type="text/javascript" src=""></script>
+<title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
+</head>
+<body>
+<header>
+  <div id="logo"><a href="/"></a></div>
+  <nav class="topnav" id="topnav"><a href="/"><span>首页</span><span class="en">Home</span></a></a><a href="/categories"><span>分类</span><span class="en">Categ</span></a><a href="/gustbook"><span>留言版</span><span class="en">Gustbook</span></a><a href="/about"><span>关于我</span><span class="en">About</span></nav>
+</header>
+  <div class="banner">
   <section class="box">
     <ul class="texts">
       <p>打了死结的青春，捆死一颗苍白绝望的灵魂。</p>
@@ -111,3 +120,6 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     <!-- Baidu Button END -->   
     <a href="/" class="weixin"> </a></aside>
 </article>
+<footer>
+  <p>Design by DanceSmile <a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备11002373号-1</a> <a href="/">网站统计</a></p>
+</footer>
