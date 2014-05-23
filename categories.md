@@ -1,4 +1,5 @@
 ---
+css: index
 title: categories
 layout: page
 ---
