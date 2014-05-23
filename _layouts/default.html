@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<link type="text/css" rel="stylesheet" href="/css/base.css">
-<link type="text/css" rel="stylesheet" href="/css/{{ page.css }}.css">
+{% for css for page.css %}
+<link type="text/css" rel="stylesheet" href="{{ css.href }}">
+{% endfor %}
 <script type="text/javascript" src=""></script>
 <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
 </head>
