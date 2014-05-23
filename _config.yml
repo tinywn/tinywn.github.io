@@ -9,5 +9,5 @@ weibo: 3842200194
 github: tinywn
 pygments: true
 safe: true
-paginate: 20
+paginate: 10
 truncate: 200
