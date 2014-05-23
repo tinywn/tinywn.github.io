@@ -13,14 +13,14 @@ layout: page
 <div class="about left">
   <h2>Just about me</h2>
     <ul> 
-     <p></p>
+     <p>小人物</p>
     </ul>
 	<h2>Contact Me</h2>
 	<p>
 	ＱＱ：<a href="tencent://message/?uin={{ site.qq }}">{{ site.qq }}</a>
 	</P>
 	<p>
-	微博：<a href="http://weibo.com/u/{{ site.weibo }}">hitcode</a>
+	微博：<a target="_blank" href="http://weibo.com/u/{{ site.weibo }}">hitcode</a>
 	</p>
 	<p>
 	网站：<a href="{{ site.url }}">{{ site.name }}</a>
@@ -32,7 +32,7 @@ layout: page
 	GitHub：<a target="_blank" href="http://github.com/{{ site.github }}">github.com/{{ site.github }}</a>
 	</p>
     <h2>About my blog</h2>
-    <p>域  名：www.yangqq.com 创建于2011年01月12日 <a href="/" class="blog_link" target="_blank">注册域名</a></p>
+    <p>域  名：买不起 创建于XXXX年XX月XX日 <a href="/" class="blog_link" target="_blank">注册域名</a></p>
     <p>服务器：阿里云服务器<a href="/" class="blog_link" target="_blank">购买空间</a></p>
     <p>备案号：蜀ICP备11002373号-1</p>
     <p>程  序：PHP 帝国CMS7.0</p>
@@ -53,17 +53,3 @@ layout: page
 </div>     
 </aside>
 </article>
-
-###联系方式：
-
-{% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
-{% endif %}
-
-微博：[hitcode](http://weibo.com/u/{{ site.weibo }})
-
-网站：[{{ site.name }}]({{ site.url }})
-
-邮箱：[{{ site.email }}](mailto:{{ site.email }})
-
-GitHub : [github.com/{{ site.github }}](http://github.com/{{ site.github }})
