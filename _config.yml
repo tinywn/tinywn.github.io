@@ -1,25 +1,19 @@
-title:            Lei Huang
-description:      I practice three hours a day,so that when I meet a pirate,I can kill it!
+title: tinywn
+description: mad love
 url:              
-baseurl:          # Base url. ( if use subdirectory-like URL )
-signoff:          Lei # Your name.
-disqus_shortname: huanglei # disqus comment thread for post header options. ( leave blank if unwanted. )
-google_analytics_id: # set tracking, UA-XXXX-Y.
+baseurl: 
+signoff: WN
 encoding: utf-8
 links:
   
-  - name:         Blog
-    url:          /
-  - name:         Categories
-    url:          /tags
-  - name:         GitHub
-    url:          http://github.com/tinywn
-    external:     true
-  - name:         About
-    url:          /about
+  - name: Blog
+    url: /
+  - name: GitHub
+    url: http://github.com/tinywn
+    external: true
 
-pygments:         true
-permalink:        pretty
-markdown:         redcarpet
+pygments: true
+permalink: pretty
+markdown: redcarpet
 redcarpet:
   extensions:     [autolink, tables]
